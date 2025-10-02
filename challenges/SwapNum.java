@@ -1,13 +1,17 @@
+import java.util.Scanner;
+
 public class SwapNum {
     public static void main(String[] args) {
-        int a = 9;
-        System.out.println("a:"+a);
-        int b=8;
-        System.out.println("b:"+b);
-        int c = b;
-        b = a;
-        System.out.println("b:"+b);
-        a=c;
-        System.out.println("a:"+a);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Welcome to swapping station.\n\n");
+        System.out.print("Enter your first number:");
+        int a = input.nextInt();
+        System.out.print("Enter your second number:");
+        int b = input.nextInt();
+        System.out.println("a: " +a+ " and b: " +b+ " before swapping.");
+        int c = a;
+        a =b ;
+        b = c;
+        System.out.println("a: " +a+ " and b: " +b+ " after swapping.");
     }
 }
