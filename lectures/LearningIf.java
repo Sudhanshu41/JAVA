@@ -10,5 +10,19 @@ public class LearningIf {
             System.out.println("Mrs."+name);
         }
         System.out.println("After if");
+        boolean isSeniorCitizen = false;
+        boolean isAnAdult = false;
+        if(isSeniorCitizen){
+            System.out.println("Hello Senior");
+
+        }
+        else if(isAnAdult) {
+
+                System.out.println("Hello adult");
+            }
+        else {
+                System.out.println("Hello child");
+            }
+        }
     }
-}
+
