@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
+
 public class OddEveBit {
+    /**
+     * This is my main method
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter your number: ");
