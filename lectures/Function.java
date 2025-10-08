@@ -46,7 +46,7 @@ public class Function {
                }
                int stars = 0;
                while (stars<rows){
-                   System.out.print("* ");
+                   System.out.print("* *");
                    stars++;
                }
                System.out.println();
