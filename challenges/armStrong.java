@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // best debugging for beginners without using debugger is sout.
 
 public class armStrong {
     public static void main(String[] args) {
