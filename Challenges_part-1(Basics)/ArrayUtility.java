@@ -12,4 +12,12 @@ public class ArrayUtility {
         }
         return nums;
     }
+    public static void DisplayArray(int [] arr){
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+
+    }
 }
