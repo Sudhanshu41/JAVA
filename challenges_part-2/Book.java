@@ -44,6 +44,8 @@ public class Book {
     public static void main(String[] args) {
         Book book1 = new Book("Book 1",null,"Book 2");
         book1.borrowBook();
+        book1.borrowBook();
+        book1.returnBook();
         book1.returnBook();
         System.out.println(book1.title);
 
