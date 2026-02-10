@@ -9,7 +9,7 @@ public class Car {
           noOfCarsSold = 0;
         System.out.println("I am In Static block");
     }
-    {
+    static {
         noOfCarsSold++;
         System.out.println("I am in init block");
     }
