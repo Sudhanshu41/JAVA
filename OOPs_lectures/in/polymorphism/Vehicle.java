@@ -1,4 +1,5 @@
 package in.polymorphism;
 
-public class Vehicle {
+public  interface   Vehicle {
+    public void start();
 }

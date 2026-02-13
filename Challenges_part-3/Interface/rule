@@ -1,0 +1,8 @@
+//package Interface;
+//
+//public class CAAR extends Vehicle1{
+//    👉 Default package wali class ko
+//👉 kisi named package se import nahi kar sakte
+//
+//❌ Ye illegal hai Java me
+}
