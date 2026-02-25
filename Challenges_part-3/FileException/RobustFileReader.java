@@ -13,10 +13,10 @@ public class RobustFileReader {
         try (FileReader fileReader = new FileReader(fileName)){
             int read;
             while ((read = fileReader.read() )!= -1){
-                System.out.println((char)read);
+                System.out.print((char)read);
             }
         }catch (FileNotFoundException exception){
-            System.out.printf("File not found exception");
+            System.out.println("File not found exception ");
         }
 
         catch (IOException ex){

@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/OOPs_lectures" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Challenges_part-3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exception_and_FIle_Handling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections_and_Generics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Multi_Threading" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -11,10 +11,10 @@ public class kgReader {
            do {
                read = reader.read();
                System.out.print((char)read);
-           }while (read!=-1);
+           }while (read!=-1 );
 
        }catch (IOException exception){
-           System.out.printf("Error occured : %s",exception.getMessage());
+           System.out.printf("Exception occured : %s",exception.getMessage());
        }
     }
 }
