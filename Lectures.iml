@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Exception_and_FIle_Handling" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Collections_and_Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Multi_Threading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Executor_service" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
