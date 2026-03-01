@@ -13,6 +13,6 @@ public class FetchName implements Callable<String> {
     public String call() throws Exception {
         System.out.printf("\n Getting Full name of %s from server ",name);
         Thread.sleep(4000);
-        return name + "Bhartiya";
+        return name   + "Bhartiya";
     }
 }
